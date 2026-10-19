@@ -1,0 +1,16 @@
+# ============================================================================
+# Course: CS204 - Object-Oriented Systems & Network Programming (B.Tech CSE)
+# Database File: users.txt
+#
+# Storage Format:
+# username:salt:djb2_64bit_hash
+#
+# Systems Rigor Note:
+# Passwords are NEVER stored in plaintext. They are salted with an 8-character
+# random token and hashed via deterministic 64-bit DJB2 algorithm.
+# This prevents rainbow table attacks and guarantees stability across server restarts.
+# ============================================================================
+student:xK92mP41:14739194270425339678
+professor:tA88wZ12:9384729184719284729
+alex:qB11vL90:12948201948192847192
+test_student:z27azWYv:15152517367823364372
